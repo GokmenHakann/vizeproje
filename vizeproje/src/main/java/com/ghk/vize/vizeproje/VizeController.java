@@ -19,7 +19,6 @@ public class VizeController{
     public String bilgilerim(){
         return "GÖKMEN HAKAN KARAGÖZ www.gokmenhakan.com";
     }
-    // http://localhost:8080/soru1?s=maven kismini nasi unuturum... bunu test etmek için çalıştırdıktan sonra buna git
 
     @GetMapping("/soru1")
     public List<String> soru1(@RequestParam String cumle){
